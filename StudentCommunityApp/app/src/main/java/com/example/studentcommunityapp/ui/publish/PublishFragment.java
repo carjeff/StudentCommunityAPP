@@ -1,6 +1,8 @@
 package com.example.studentcommunityapp.ui.publish;
 
 import android.os.Bundle;
+import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +13,23 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.studentcommunityapp.R;
+import com.example.studentcommunityapp.util.WebHelper;
 import com.google.android.material.tabs.TabLayout;
+import com.google.gson.Gson;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public class PublishFragment extends Fragment {
 
@@ -60,6 +75,9 @@ public class PublishFragment extends Fragment {
 
             }
         });
+
+
+
 
         return view;
     }

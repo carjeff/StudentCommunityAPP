@@ -87,7 +87,7 @@ public class AddCourseFragment extends Fragment {
         //设置Toast显示位置，居中，向 X、Y轴偏移量均为0
         toast.setGravity(Gravity.CENTER, 0, 0);
         //获取自定义视图
-        View view = LayoutInflater.from(context).inflate(R.layout.toast, null);
+        View view = LayoutInflater.from(context).inflate(R.layout.toast_fail, null);
         TextView tvMessage = (TextView) view.findViewById(R.id.tv_toast);
         //设置文本
         tvMessage.setText(msg);

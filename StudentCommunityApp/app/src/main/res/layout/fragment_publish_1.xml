@@ -106,7 +106,7 @@
 
 
                 <EditText
-                    android:id="@+id/input_article_CoverMap"
+                    android:id="@+id/input_video_CoverMap"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_centerVertical="true"
