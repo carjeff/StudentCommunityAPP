@@ -1,5 +1,5 @@
 # StudentCommunityAPP
-This is a new app about student community.
+北京化工大学生产实习项目仓库
 
 ## 要求
 
